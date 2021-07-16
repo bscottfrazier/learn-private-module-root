@@ -5,5 +5,4 @@ module "private-registry-poc" {
   credentials = var.credentials
   region = var.region
   zone = var.zone
-  # insert required variables here
 }
