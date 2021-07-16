@@ -1,11 +1,15 @@
-# variable "region" {
-#   description = "This is the cloud hosting region where your webapp will be deployed."
-# }
+variable "project" {
+  description = "The name of the GCP project to which infrastructure will be deployed."
+}
 
-# variable "prefix" {
-#   description = "This is the environment your webapp will be prefixed with. dev, qa, or prod"
-# }
+variable "credentials" {
+  description = "The credentials to access the GCP project."
+}
 
-# variable "name" {
-#   description = "Your name to attach to the webapp address"
-# }
+variable "region" {
+  description = "The GCP region."
+}
+
+variable "zone" {
+  description = "The GCP zone."
+}
